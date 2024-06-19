@@ -1,0 +1,1 @@
+pyinstaller --oneline --icon=ico.ico ./main.py
