@@ -34,7 +34,7 @@ def download_file(creds, real_file_id: str):
     return file.getvalue()
 
 
-def find_folder_by_id(folder_id: str, creds):
+def find_folder_by_id(creds, folder_id: str):
     # FIND FOLDER bY ID AND RETURN ALL CONTENTS within folder
     files = []
     try:
